@@ -11,8 +11,10 @@ RUN apk --update add openssl-dev python3 python3-dev openssh sshpass git py3-lxm
     echo "Installing ansible and tools" && \
     pip3 install --no-cache ansible  f5-sdk deepdiff && \
     pip3 install --no-cache jmespath && \ 
-    pip3 install --no-cache netmiko &&\
-    pip3 install --no-cache yamllint && \ 
+    pip3 install --no-cache netmiko && \
+    echo "Install Linting Tools " && \
+    pip3 install --no-cache yamllint && \
+    pip3 install --no-cache pylint && \ 
     echo "installing Docx and PPTx" && \
     pip3 install --no-cache python-docx && \
     pip3 install --no-cache python-pptx
@@ -26,6 +28,9 @@ WORKDIR /home/ansible
 
 RUN mkdir -p /home/ansible/ansible_lab && \
     touch /home/ansible/.ansible.cfg
+
+COPY error.yml /home/ansible/ansible_lab/.
+COPY noerror.yml /home/ansible/ansible_lab/.
 
 EXPOSE 22/tcp
 
