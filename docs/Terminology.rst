@@ -1,8 +1,8 @@
 Terminology
 ======
 
-Ansible Terms                                             Additional Terms
-~~~~
+Ansible Terms
+----
  - Adhoc
  - Modules
  - Inventory
