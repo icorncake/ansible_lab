@@ -1,8 +1,8 @@
 SSH Key Generation
 ==============
 
-    `ssh-keygen -t rsa -b 2048`
+    `#ssh-keygen -t rsa -b 2048`
 
-.. image:: docs/ssh.png
+.. image:: /imgs/ssh_keygen.png
    :width: 400
    :alt: SSH
