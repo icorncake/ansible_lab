@@ -1,9 +1,6 @@
 SSH Key Generation
 ==============
 
-.. |br| raw::html
-   <br />
-
 Create Public and Private key pair::
 
 
@@ -13,8 +10,8 @@ From a terminal screen you can generate a ssh key of type (-t) rsa and length (-
 
 Or try this:
 
-   .. code-block:: console
-      $ssh-keygen -t rsa -b 2048
+   .. code-block:: 
+      #ssh-keygen -t rsa -b 2048
 
 
    .. image:: ../imgs/ssh_keygen.png
