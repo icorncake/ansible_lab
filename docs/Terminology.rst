@@ -12,3 +12,11 @@ Ansible Terms
  - Ansible Vault
  - Ansible-Galaxy
  - Debugging (verbosity)
+
+
+Additional Terms
+-----
+ - Git
+ - Linting (yamllint)
+ - CI/CD
+ - Pipeline
