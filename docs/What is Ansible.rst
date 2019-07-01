@@ -6,7 +6,7 @@ What is Ansible
 .. centered:: - Next line
 
 .. code-block:: yaml
-   ---
-   - hosts: [group]
+    ---
+    - hosts: [group]
 
  
