@@ -1,4 +1,4 @@
-What is Ansible
+What is Ansible\?
 ======
 
 .. centered:: What is Ansible?
