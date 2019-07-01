@@ -20,3 +20,8 @@ Additional Terms
  - Linting (yamllint)
  - CI/CD
  - Pipeline
+
+ .. confval:: prev_next_buttons_location
+
+    :type: string
+    :default: ``bottom``
