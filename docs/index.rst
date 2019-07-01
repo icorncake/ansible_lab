@@ -11,6 +11,7 @@ Topics
 
 .. toctree::
    :maxdepth: 2
+     contents
      ssh
    :caption: Contents:
 
