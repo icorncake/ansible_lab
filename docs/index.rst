@@ -10,7 +10,8 @@ Topics
 ^^^^^^
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Ansible
+   :maxdepth: 3
        
    contents
    What is Ansible?
