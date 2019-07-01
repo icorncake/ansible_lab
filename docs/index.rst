@@ -6,8 +6,12 @@
 Ansible and DevOps intro
 ==============================================
 
+Topics
+^^^^^^
+
 .. toctree::
    :maxdepth: 2
+     ssh
    :caption: Contents:
 
 
