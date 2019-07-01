@@ -6,9 +6,6 @@
 Ansible and DevOps, An intro
 ==============================================
 
-Topics
-^^^^^^
-
 .. toctree::
    :caption: Ansible
    :maxdepth: 3
@@ -16,8 +13,6 @@ Topics
    contents
    What is Ansible
    SSH Key Generation
-
-   :caption: Contents:
 
 
 
