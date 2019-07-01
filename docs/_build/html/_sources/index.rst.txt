@@ -6,18 +6,14 @@
 Ansible and DevOps, An intro
 ==============================================
 
-Topics
-^^^^^^
-
 .. toctree::
-   :caption: Ansible
-   :maxdepth: 3
+   :caption: Ansible and DevOps
+   :maxdepth: 2
        
-   contents
    What is Ansible
+   Terminology
    SSH Key Generation
-
-   :caption: Contents:
+   Installation
 
 
 

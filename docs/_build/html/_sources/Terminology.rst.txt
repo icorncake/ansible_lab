@@ -1,8 +1,8 @@
 Terminology
-=======
+======
 
 Ansible Terms
-------
+----
  - Adhoc
  - Modules
  - Inventory
@@ -15,13 +15,8 @@ Ansible Terms
 
 
 Additional Terms
--------
+-----
  - Git
  - Linting (yamllint)
  - CI/CD
  - Pipeline
-
- .. confval:: prev_next_buttons_location
-
-    :type: string
-    :default: ``bottom``
