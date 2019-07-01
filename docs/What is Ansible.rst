@@ -6,7 +6,8 @@ What is Ansible
 .. centered:: - Next line
 
 .. codeblock:: python
-    ---
-    - hosts: [group]
+   :linenos:
+   ---
+   - hosts: [group]
 
  
