@@ -14,8 +14,7 @@ From a terminal screen you can generate a ssh key of type (-t) rsa and length (-
 
    .. figure:: ../imgs/ssh_keygen.png
       :width: 800
-      :align: center
-      :caption: Fig 1
+
 ..
 
 The above command would produce two files:
