@@ -10,9 +10,10 @@ Ansible and DevOps, An intro
    :caption: Ansible
    :maxdepth: 3
        
-   contents
    What is Ansible
+   Terminology
    SSH Key Generation
+   Installation
 
 
 
