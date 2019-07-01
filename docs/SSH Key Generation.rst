@@ -10,7 +10,7 @@ From a terminal screen you can generate a ssh key of type (-t) rsa and length (-
 
 Or try this:
 
-   .. code-block:: 
+   .. code-block:: console 
       #ssh-keygen -t rsa -b 2048
 
 
