@@ -5,8 +5,7 @@ What is Ansible
 .. centered:: -  Open Source
 .. centered:: - Next line
 
-.. code-block::
-    :linenos:
+.. codeblock::
     ---
     - hosts: [group]
 
