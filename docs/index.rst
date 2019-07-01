@@ -13,7 +13,7 @@ Topics
    :maxdepth: 2
        
    contents
-   ssh
+   SSH Key Generation
 
    :caption: Contents:
 
