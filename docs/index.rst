@@ -12,8 +12,8 @@ Topics
 .. toctree::
    :maxdepth: 2
        
-     contents
-     ssh
+     contents.rst
+     ssh.rst
 
    :caption: Contents:
 
