@@ -7,8 +7,8 @@ Ansible and DevOps, An intro
 ==============================================
 
 .. toctree::
-   :caption: Ansible
-   :maxdepth: 3
+   :caption: Ansible and DevOps
+   :maxdepth: 2
        
    What is Ansible
    Terminology
