@@ -6,8 +6,10 @@ If we print (*debug*) our registed variable *'vland'* we see...a bunch of garbag
 
 
 .. figure:: ../imgs/debug1.png
+   :scale: 40%
+   :align: center
 
-.. centered:: Fig 3
+    Fig 3
 
 
 
