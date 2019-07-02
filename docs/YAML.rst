@@ -32,7 +32,7 @@ We declare what hosts we want to work with or group of hosts based on a inventor
 
 Next comes the tasks, these are the individual plays to be run from our playbook.
 
-.. code-block:: html
+.. code-block:: yaml
    :linenos:
 
-    <p> Text </p>
+    - hosts:
