@@ -5,7 +5,7 @@ What is Ansible
 - Open Source
 - Next line
 
-  ::
+::
     ---
     - hosts: [group]
 
