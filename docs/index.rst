@@ -18,7 +18,7 @@ Ansible and DevOps, An intro
    Adhoc
    YAML
    Linting
-
+   Playbook
 
 Indices and tables
 ==================
