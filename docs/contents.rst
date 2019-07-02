@@ -12,3 +12,5 @@ contents
 `Installation <https://ansible-lab.readthedocs.io/en/latest/Installation.html>`_
 
 `Configurations <https://ansible-lab.readthedocs.io/en/latest/Configurations.html>`_
+
+`Repository <https://ansible-lab.readthedocs.io/en/latest/Repository.html>`_
