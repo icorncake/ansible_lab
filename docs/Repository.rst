@@ -26,7 +26,9 @@ Let's configure our git config
 
 ::
 
+  
   git config --global user.email "your@email.com"
+  
   git config --global user.name "username"
 
 
