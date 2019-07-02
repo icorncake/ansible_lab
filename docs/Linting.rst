@@ -10,6 +10,10 @@ Linting
 
 In our example files:
 
+.. literalinclude:: ../error.yml
+   :linenos:
+   :language: yaml
+
 ::
 
    #yamllint error.yml
