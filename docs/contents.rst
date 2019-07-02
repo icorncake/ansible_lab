@@ -1,4 +1,4 @@
-contents
+Content
 ========
 
 `Home <https://ansible-lab.readthedocs.io/en/latest />`_
@@ -32,3 +32,5 @@ contents
 `Debug2 <https://ansible-lab.readthedocs.io/en/latest/Debug2.html>`_
 
 `Loop <https://ansible-lab.readthedocs.io/en/latest/Loop.html>`_
+
+`Facts <https://ansible-lab.readthedocs.io/en/latest/Facts.html>`_
