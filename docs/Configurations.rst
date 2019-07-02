@@ -5,7 +5,7 @@ For Mac you'll want to associate this new key for use (automatically), otherwise
 
 ::
 
-    #vim .ssh/config
+    vi .ssh/config
     IdentityFile ~/.ssh/ansible_lab
 
 
@@ -14,13 +14,15 @@ To exit vim:
 ::
 
     esc
+
     :wq
 
 Now we can configure the Ansible config file:
 
 ::
 
-    #vim .ansible.cfg
+    vi .ansible.cfg
+
     [defaults]
     Host_key_checking = False
     Log_path = ~/ansible_lab
@@ -30,7 +32,7 @@ Now let's get a copy of your public ssh key
 
 ::
 
-    #cat .ssh/ansible_lab.pub 
+    cat .ssh/ansible_lab.pub 
 
 Copy the output, it should start like below:
 
