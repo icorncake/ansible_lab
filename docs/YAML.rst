@@ -31,3 +31,8 @@ The three `---` dashes indicate the start of a YML file.  Then comes the playboo
 We decalre what hosts we want to work with or group of hosts based on a inventory file, we can also make an external variable sheet to reference to run our play against. Example, we want to declare how a vlan, a route or a virtual server are built and only allow individuals to pass variables to the play standardizing how we build.
 
 Next comes the tasks, these are the individual plays to be run from our playbook.
+
+.. code-block::
+   :linenos:
+
+    import os
