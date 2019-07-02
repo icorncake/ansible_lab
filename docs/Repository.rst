@@ -42,6 +42,8 @@ Now we can move the stagged files to commit.  We use the *'-m'* for the commit m
 
     git commit -m "initial push"
 
+.. warning:: Make sure you use the switch -m and add a message
+    
 Now let's set the remote repository (Gitlab) and sync our local files to the remote master
 
 ::
