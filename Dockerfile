@@ -32,7 +32,7 @@ RUN mkdir -p /home/ansible/ansible_lab && \
 COPY error.yml /home/ansible/ansible_lab/.
 COPY noerror.yml /home/ansible/ansible_lab/.
 
-RUN chown -R ansible:ansible /ansible_lab
+RUN chown -R ansible:ansible ~/ansible_lab
 
 EXPOSE 22/tcp
 
