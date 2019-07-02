@@ -20,6 +20,7 @@ Directories
 
   pwd            { shows current working directory }
   cd             { change directory }
+  cd ..          { change directory up one level }
   cd -           { return to last directory }
   mkdir          { make directory }
   ls             { list contents of a directory; files and folders }
