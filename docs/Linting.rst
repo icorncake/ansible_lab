@@ -14,6 +14,14 @@ In our example files:
    :linenos:
    :language: yaml
 
+.. centered:: error.yml
+
+.. literalinclude:: ../noerror.yml
+   :linenos:
+   :language: yaml
+
+.. centered:: noerror.yml
+
 ::
 
    #yamllint error.yml
