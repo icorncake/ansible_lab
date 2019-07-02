@@ -18,3 +18,5 @@ contents
 `Adhoc <https://ansible-lab.readthedocs.io/en/latest/Adhoc.html>`_
 
 `Linting <https://ansible-lab.readthedocs.io/en/latest/Linting.html>`_
+
+`Playbook <https://ansible-lab.readthedocs.io/en/latest/Playbook.html>`_
