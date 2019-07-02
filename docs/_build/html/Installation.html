@@ -87,6 +87,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#macos">MacOS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#linux">Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#windows">Windows</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#docker">Docker</a></li>
 </ul>
 </li>
@@ -176,9 +177,34 @@
 </dd>
 </dl>
 </div>
+<div class="section" id="windows">
+<h2>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
+<p>Just move to linux already, Windows is
+Follow the Docker CE link below</p>
+</div>
 <div class="section" id="docker">
 <h2>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
-<p>Install Docker CE <a class="reference external" href="https://docs.docker.com/install/">link</a></p>
+<p>Install Docker CE <a class="reference external" href="https://docs.docker.com/install/">link</a>
+Run the Ansible container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#docker pull cwise24/ansiblelab:latest</span>
+<span class="c1">#docker run -p 2222:22 --name ansiblec -dit ansiblelab</span>
+</pre></div>
+</div>
+<p>To run the Ansible container’s shell:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#docker exec -it ansiblec /bin/sh</span>
+</pre></div>
+</div>
+<p>This will open a shell to the container as the user ‘ansible’</p>
+<dl class="simple">
+<dt>Suggested list of packages to install:</dt><dd><ul class="simple">
+<li><p>Ansible</p></li>
+<li><p>Yamllint</p></li>
+<li><p>Jmespath</p></li>
+<li><p>Netmiko</p></li>
+<li><p>git</p></li>
+</ul>
+</dd>
+</dl>
 </div>
 </div>
 
