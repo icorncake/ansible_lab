@@ -22,7 +22,7 @@ Time to test our ssh key with Gitlab:
 
 If this was successful then let's add the blank inventory to the repository
 
-This marks all files `.` in the working directory to be added to stagging
+This marks all files '.' in the working directory to be added to stagging
 
 ::
 
