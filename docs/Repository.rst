@@ -18,7 +18,7 @@ Time to test our ssh key with Gitlab:
 
 ::
 
-    #ssh -T git@gitlab.com
+    ssh -T git@gitlab.com
 
 If this was successful then let's add the blank inventory to the repository
 
@@ -26,25 +26,25 @@ This marks all files '.' in the working directory to be added to stagging
 
 ::
 
-    #git add .
+    git add .
 
 Now we can move the stagged files to commit.  We use the *'-m'* for the commit message and will see this in Gitlab.
 
 ::
 
-    #git commit -m "initial push"
+    git commit -m "initial push"
 
 Now let's set the remote repository (Gitlab) and sync our local files to the remote master
 
 ::
 
-    #git push --set-upstream git@gitlab.com:<username>/ansible_lab.git master
+    git push --set-upstream git@gitlab.com:<username>/ansible_lab.git master
 
 You can also see what branches you have within your repository:
 
 ::
 
-    #git branch
-     * master
+    git branch
+    * master
 
 This shows the branch *'master'* that we just made and that we are in that branch denoted by the '*'
