@@ -6,11 +6,6 @@
 Ansible and DevOps, An intro
 ==============================================
 
-.. toctree::
-   :titlesonly:
-   :hidden:
-
-   contents
 
 .. toctree::
    :numbered:
