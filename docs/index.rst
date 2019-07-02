@@ -15,6 +15,9 @@ Ansible and DevOps, An intro
    Installation
    Configurations
    Repository
+   Adhoc
+
+
 
 Indices and tables
 ==================
