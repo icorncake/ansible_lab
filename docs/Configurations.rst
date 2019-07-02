@@ -6,7 +6,7 @@ For Mac you'll want to associate this new key for use (automatically), otherwise
 ::
 
     vi .ssh/config
-    IdentityFile ~/.ssh/ansible_lab
+    IdentityFile ~/.ssh/ansible_key
 
 
 To exit vim:
