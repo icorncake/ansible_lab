@@ -8,7 +8,7 @@ Now lets compare our debug values:
    :scale: 40%
    :align: center
 
-     Fig 4
+.. centered:: Fig 4
 
 .. centered::  Versus
 
