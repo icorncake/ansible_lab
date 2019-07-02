@@ -10,7 +10,7 @@ Ansible and DevOps, An intro
    :titlesonly:
    :caption: Content
 
-   content
+   contents
 
 .. toctree::
    :numbered:
