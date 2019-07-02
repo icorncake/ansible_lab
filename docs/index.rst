@@ -8,7 +8,7 @@ Ansible and DevOps, An intro
 
 .. toctree::
    :titlesonly:
-   :caption: Content
+   :hidden:
 
    contents
 
