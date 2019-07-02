@@ -8,7 +8,7 @@ It's easy to read!
 
 .. code-block:: yaml
    :linenos:
-
+   :emphasize-lines: 6
     ---
     - hosts: <individual host> or [group of hosts]
       gather_facts: false
