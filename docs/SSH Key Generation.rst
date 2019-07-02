@@ -23,5 +23,5 @@ From a terminal screen you can generate a ssh key of type (-t) rsa and length (-
 
 The above command would produce two files:
 
- - ansible_lab
- - ansible_lab.pub
+ - ansible_key
+ - ansible_key.pub
