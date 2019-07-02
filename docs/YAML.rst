@@ -6,7 +6,8 @@ YAML or YML (it has too many meanings: Yet Another Markup Language; Yaml Ain't M
 It's easy to read!
 
 
-::
+.. code-block:: yaml
+   :linenos:
 
     ---
     - hosts: <individual host> or [group of hosts]
@@ -32,7 +33,3 @@ We declare what hosts we want to work with or group of hosts based on a inventor
 
 Next comes the tasks, these are the individual plays to be run from our playbook.
 
-.. code-block:: yaml
-   :linenos:
-
-    - hosts:
