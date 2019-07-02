@@ -7,6 +7,8 @@ Ansible and DevOps, An intro
 ==============================================
 
 .. toctree::
+   :numbered:
+   :titlesonly:
    :caption: Ansible and DevOps
        
    What is Ansible
