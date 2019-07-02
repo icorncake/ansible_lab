@@ -20,6 +20,7 @@ Directories
 
   pwd            { shows current working directory }
   cd             { change directory }
+  cd -           { return to last directory }
   mkdir          { make directory }
   ls             { list contents of a directory; files and folders }
   ls -la         { list contents to include hidden files and permissions }
