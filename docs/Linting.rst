@@ -15,9 +15,11 @@ In our example files:
    #yamllint error.yml
    #yamllint noerror.yml
 
+
+   
   .. figure:: ../imgs/lint.png
      :scale: 40%
      :align: center
 
-     Fig 2
+      Fig 2
 
