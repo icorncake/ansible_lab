@@ -16,6 +16,7 @@ Ansible and DevOps, An intro
    Terminology
    SSH Key Generation
    Installation
+   Linux
    Configurations
    Repository
    Adhoc
