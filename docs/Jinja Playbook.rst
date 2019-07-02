@@ -2,7 +2,8 @@ Jinja Playbook
 ==============
 
 .. sidebar::
-    Using set_fact
+    
+     Using set_fact
 
 .. code-block::
    :linenos:
