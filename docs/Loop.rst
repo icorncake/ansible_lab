@@ -1,0 +1,28 @@
+Loop
+=====
+
+Now let's make use of our new variable
+
+.. code-block:: yaml
+   :linenos:
+   :emphasize-lines:
+
+   ---
+   - hosts: [switches]
+     gather_facts: false
+
+     tasks:
+
+     - name: Gather vlan info
+       ios_command:
+         commands: show vlan
+       register: vland
+
+     - set_fact:
+          interface: "{{ vland.stdout_lines[0][2].split(\"\") | select('match', '^(Fa|Gi) | list  }}"
+
+     - name: Get interface config
+       ios_command:
+          commands: show running-config interface {{ item }}
+       with_items: "{{ interface }}"
+       register: shorunint

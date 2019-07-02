@@ -30,3 +30,5 @@ contents
 `Jinja Playbook <https://ansible-lab.readthedocs.io/en/latest/Jinja%20Playbook.html>`_
 
 `Debug2 <https://ansible-lab.readthedocs.io/en/latest/Debug2.html>`_
+
+`Loop <https://ansible-lab.readthedocs.io/en/latest/Loop.html>`_

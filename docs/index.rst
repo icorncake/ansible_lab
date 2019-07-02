@@ -25,6 +25,8 @@ Ansible and DevOps, An intro
    Debug1
    Jinja Playbook
    Debug2
+   Loop
+
 
 Indices and tables
 ==================
