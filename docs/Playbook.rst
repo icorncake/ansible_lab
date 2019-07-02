@@ -15,7 +15,7 @@ Playbook
 
 .. centered:: inventory file
 
-.. sidebar::  Play
+.. sidebar::  Play Details
  
     This play will log into the group [switches] and get the vlan info from each mdf1 and mdf2. The information will be stored in the variable *'vland'*.
 
