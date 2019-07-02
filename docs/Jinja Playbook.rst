@@ -2,7 +2,7 @@ Jinja Playbook
 ==============
 
 
-Using *'set_fact'* to build a new variable *'interface'* and using Jinja filters for only the interfaces
+| Using *'set_fact'* to build a new variable *'interface'* and using Jinja filters for only the interfaces
 | { Lines 13-14 }
 
 
