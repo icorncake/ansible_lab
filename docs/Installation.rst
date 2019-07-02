@@ -3,7 +3,6 @@ Installation
 
 MacOS
 ~~~~~~~
-
 Install `homebrew <https://howtogeek.com/211541/homebrew-for-os-x-easily-installs-desktop-apps-and-terminal-utilities/>`_
 
  - brew install python3
@@ -26,6 +25,7 @@ Docker
 
 Install Docker CE `link <https://docs.docker.com/install/>`_
 Run the Ansible container:
+
 ::
 
 
