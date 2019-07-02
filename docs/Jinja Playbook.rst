@@ -1,7 +1,7 @@
 Jinja Playbook
 ==============
 
-.. sidebar::
+.. sidebar::  Filtering
     
      Using set_fact
 
