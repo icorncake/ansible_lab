@@ -29,14 +29,15 @@ Docker
 ::
 
 
-    #docker pull cwise24/ansiblelab:latest
-    #docker run -p 2222:22 --name ansiblec -dit ansiblelab
+    docker pull cwise24/ansiblelab:latest
+    docker run -p 2222:22 --name ansiblec -dit ansiblelab
 
 
 To run the Ansible container's shell:
+
 ::
 
-    #docker exec -it ansiblec /bin/sh
+    docker exec -it ansiblec /bin/sh
 
 
 This will open a shell to the container as the user 'ansible'

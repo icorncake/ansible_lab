@@ -6,15 +6,28 @@
 Ansible and DevOps, An intro
 ==============================================
 
+
 .. toctree::
+   :numbered:
+   :titlesonly:
    :caption: Ansible and DevOps
-       
+
    What is Ansible
    Terminology
    SSH Key Generation
    Installation
-
-
+   Configurations
+   Repository
+   Adhoc
+   YAML
+   Linting
+   Playbook
+   Commands
+   Debug1
+   Jinja Playbook
+   Debug2
+   Loop
+   Facts
 
 Indices and tables
 ==================
