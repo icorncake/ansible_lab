@@ -22,6 +22,8 @@ Playbook
   - hosts: [switches]
     gather_facts: no
 
+    vars_files:
+      external_var.yml
 
     tasks:
 
