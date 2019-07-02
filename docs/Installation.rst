@@ -17,14 +17,14 @@ Install python3-pip (apt/yum)
 Windows
 ~~~~~~~~
 
-Just move to linux already, Windows is
+| Just move to linux already, Windows is
 | Follow the Docker CE link below
 
 Docker
 ~~~~~~~~
 
-Install Docker CE `link <https://docs.docker.com/install/>`_
-Run the Ansible container:
+| Install Docker CE `link <https://docs.docker.com/install/>`_
+| Run the Ansible container:
 
 ::
 
