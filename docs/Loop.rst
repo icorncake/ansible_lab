@@ -26,3 +26,5 @@ Now let's make use of our new variable
           commands: show running-config interface {{ item }}
        with_items: "{{ interface }}"
        register: shorunint
+
+We can now loop through all the interfaces in our list *interface* using the Ansible *with_items* module and collect each interfaces configuration.
