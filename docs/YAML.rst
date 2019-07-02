@@ -6,7 +6,9 @@ YAML or YML (it has too many meanings: Yet Another Markup Language; Yaml Ain't M
 It's easy to read
 
 .. sidebar:: Title
-   Content here
+     :subtitle: Content here
+
+     Check lines
 
 ::
 literal block
