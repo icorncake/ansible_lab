@@ -28,7 +28,7 @@ This marks all files '.' in the working directory to be added to stagging
 
     #git add .
 
-Now we can move the stagged files to commit
+Now we can move the stagged files to commit.  We use the *'-m'* for the commit message and will see this in Gitlab.
 
 ::
 
@@ -40,4 +40,11 @@ Now let's set the remote repository (Gitlab) and sync our local files to the rem
 
     #git push --set-upstream git@gitlab.com:<username>/ansible_lab.git master
 
+You can also see what branches you have within your repository:
 
+::
+
+    #git branch
+     * master
+
+This shows the branch *'master'* that we just made and that we are in that branch denoted by the '*'
