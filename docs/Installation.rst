@@ -41,6 +41,7 @@ To run the Ansible container's shell:
 This will open a shell to the container as the user 'ansible'
 
 Suggested list of packages to install:
+
  - Ansible
  - Yamllint
  - Jmespath
