@@ -1,2 +1,1 @@
-sphinxcontrip-httpdomain
-sphinx
+sphinx_rtd_theme
