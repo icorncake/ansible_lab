@@ -61,3 +61,7 @@ html_context = {
 "last_updated": True,
 "commit": False,
 }
+
+html_theme_options = {
+        'prev_next_buttons_location': bottom
+        }
