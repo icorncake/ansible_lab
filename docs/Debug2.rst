@@ -5,7 +5,7 @@ Now lets compare our debug values:
 
 
 .. figure:: ../imgs/jinja_filer.png
-   :width: 40%
+   :scale: 40%
    :align: center
 
-   Fig 4
+     Fig 4
