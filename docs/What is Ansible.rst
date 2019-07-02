@@ -6,8 +6,7 @@ What is Ansible
 - Next line
 
 ::
-    ---
-    - hosts: [group]
+    hosts: [group]
 
 1. Create an inventory file called *inventory.yaml* and specify the IP address.
 
