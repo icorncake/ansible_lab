@@ -10,7 +10,8 @@ Ansible and DevOps, An intro
    :numbered:
    :titlesonly:
    :caption: Ansible and DevOps
-       
+
+   contents     
    What is Ansible
    Terminology
    SSH Key Generation
