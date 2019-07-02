@@ -8,7 +8,8 @@ It's easy to read
 .. sidebar:: Title
    Content here
 
-:: literal block
+::
+literal block
 
 
 ::
