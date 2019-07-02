@@ -5,8 +5,10 @@ YAML or YML (it has too many meanings: Yet Another Markup Language; Yaml Ain't M
 
 It's easy to read
 
+.. sidebar:: Title
+
 ::
-    :emphasize-lines: 3
+
     ---
     - hosts: <individual host> or [group of hosts]
       gather_facts: false
