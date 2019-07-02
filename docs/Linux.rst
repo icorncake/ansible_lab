@@ -1,7 +1,7 @@
 Linux
 ======
 
-Some useful Linux commands
+.. centered::  Some useful Linux commands
 
 vi or visual editor
 
