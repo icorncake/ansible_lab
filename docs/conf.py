@@ -63,5 +63,5 @@ html_context = {
 }
 
 html_theme_options = {
-        'prev_next_buttons_location': bottom
+        'prev_next_buttons_location': 'bottom'
         }
