@@ -5,7 +5,7 @@ Linting
 
 ::
 
-    #yamllint <filename>.yml
+    yamllint <filename>.yml
 
 
 In our example files:
@@ -24,8 +24,8 @@ In our example files:
 
 ::
 
-   #yamllint error.yml
-   #yamllint noerror.yml
+   yamllint error.yml
+   yamllint noerror.yml
 
 
 
