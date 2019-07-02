@@ -43,3 +43,5 @@ Suggested list of packages to install:
  - Jmespath
  - Netmiko
  - git
+
+.. note:: If you are using the container, the above packages have been installed
