@@ -10,3 +10,5 @@ contents
 `SSH Key Generation <https://ansible-lab.readthedocs.io/en/latest/SSH%20Key%20Generation.html>`_
 
 `Installation <https://ansible-lab.readthedocs.io/en/latest/Installation.html>`_
+
+`Configurations <https://ansible-lab.readthedocs.io/en/latest/Configurations.html>`_

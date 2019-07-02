@@ -13,7 +13,7 @@ Ansible and DevOps, An intro
    Terminology
    SSH Key Generation
    Installation
-
+   Configurations
 
 
 Indices and tables
