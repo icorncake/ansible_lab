@@ -26,7 +26,7 @@ Now we can configure the Ansible config file:
     Log_path = ~/ansible_lab
     #vault_password_file = .vault.key
 
-Now let's get a copy of your public
+Now let's get a copy of your public ssh key
 
 ::
 
