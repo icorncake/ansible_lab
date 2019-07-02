@@ -5,11 +5,11 @@ Using Ansible, the host (localhost in this case) is defined and the '-m' switch 
 
 ::
 
-    #ansible localhost -m setup
+    ansible localhost -m setup
 
 This returns a large amout of data that would be extremely time consuming to sift through.
 Let's filter it using the '-a' switch for *argument*
 
 ::
 
-    #ansible localhost -m setup -a "filter=ansible_distribution*"
+    ansible localhost -m setup -a "filter=ansible_distribution*"
