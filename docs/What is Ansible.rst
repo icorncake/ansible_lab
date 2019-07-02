@@ -5,9 +5,10 @@ What is Ansible
 -  Open Source
 - Next line
 
-```console
-   ---
-   - hosts: [group]
+ .. code-block::
+    :linenos:
+    ---
+    - hosts: [group]
 
-```
+
  
