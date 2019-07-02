@@ -14,6 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sphinx_rtd_theme
+
 #from better import better_theme_path
 #html_theme_path = [better_theme_path]
 
