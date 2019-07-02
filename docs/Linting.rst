@@ -16,10 +16,13 @@ In our example files:
    #yamllint noerror.yml
 
 
-   
-  .. figure:: ../imgs/lint.png
-     :scale: 40%
-     :align: center
 
-      Fig 2
+
+
+
+.. figure:: ../imgs/lint.png
+   :scale: 40%
+   :align: center
+
+   Fig 2
 
