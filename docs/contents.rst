@@ -1,4 +1,4 @@
 contents
 ========
 
-`Home <http://ansible-lab.readthedocs.io/en/latest/index.html/>`_
+`Home <https://ansible-lab.readthedocs.io/en/latest/ />`_
