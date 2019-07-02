@@ -14,3 +14,7 @@ contents
 `Configurations <https://ansible-lab.readthedocs.io/en/latest/Configurations.html>`_
 
 `Repository <https://ansible-lab.readthedocs.io/en/latest/Repository.html>`_
+
+`Adhoc <https://ansible-lab.readthedocs.io/en/latest/Adhoc.html>`_
+
+`Linting <https://ansible-lab.readthedocs.io/en/latest/Linting.html>`_
