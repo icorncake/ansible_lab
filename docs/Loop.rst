@@ -5,7 +5,7 @@ Now let's make use of our new variable
 
 .. code-block:: yaml
    :linenos:
-   :emphasize-lines:
+   :emphasize-lines: 17, 18
 
    ---
    - hosts: [switches]
