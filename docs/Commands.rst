@@ -9,7 +9,7 @@ Make suer you are in the working directory for both your play and inventory
 
   cd ansible_lab
 
-  #ansible-playbook -i inventory ios.yml
+  ansible-playbook -i inventory ios.yml
 
 
 Other switches that can be added:
@@ -22,7 +22,7 @@ Extra runs with verbose (for troubleshooting):
 
 ::
 
-  #ansible-playbook -i inventory ios.yml -v
-  #ansible-playbook -i inventory ios.yml -vv
-  #ansible-playbook -i inventory ios.yml -vvv
-  #ansible-playbook -i inventory ios.yml -vvvv
+  ansible-playbook -i inventory ios.yml -v
+  ansible-playbook -i inventory ios.yml -vv
+  ansible-playbook -i inventory ios.yml -vvv
+  ansible-playbook -i inventory ios.yml -vvvv
