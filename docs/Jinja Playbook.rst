@@ -5,8 +5,10 @@ Jinja Playbook
     
      Using set_fact
 
-.. code-block::
+.. code-block:: yaml
    :linenos:
+   :emphasize-lines: 13,14
+
 
      ---
      - hosts: [switches]
