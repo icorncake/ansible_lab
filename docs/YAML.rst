@@ -11,9 +11,6 @@ It's easy to read
      Check lines
 
 ::
-literal block
-
-::
 
     ---
     - hosts: <individual host> or [group of hosts]
