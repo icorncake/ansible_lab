@@ -26,7 +26,9 @@ RUN adduser --disabled-password ansible
 USER ansible
 WORKDIR /home/ansible
 
-RUN mkdir -p /home/ansible/ansible_lab && \
+RUN mkdir -p /home/ansible/.ssh && \
+    touch /home/ansible/.ssh/known_hosts && \
+    mkdir -p /home/ansible/ansible_lab && \
     touch /home/ansible/.ansible.cfg
 
 COPY --chown=ansible error.yml /home/ansible/ansible_lab/.
