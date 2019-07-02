@@ -16,7 +16,8 @@ Ansible and DevOps, An intro
    Configurations
    Repository
    Adhoc
-
+   YAML
+   Linting
 
 
 Indices and tables
