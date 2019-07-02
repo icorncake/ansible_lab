@@ -22,7 +22,7 @@ Ansible and DevOps, An intro
    Linting
    Playbook
    Commands
-
+   Debug1
 
 Indices and tables
 ==================

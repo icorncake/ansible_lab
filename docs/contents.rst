@@ -24,3 +24,5 @@ contents
 `Playbook <https://ansible-lab.readthedocs.io/en/latest/Playbook.html>`_
 
 `Commands <https://ansible-lab.readthedocs.io/en/latest/Commands.html>`_
+
+`Debug1 <https://ansible-lab.readthedocs.io/en/latest/Debug1.html>`_
