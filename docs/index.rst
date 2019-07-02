@@ -23,6 +23,8 @@ Ansible and DevOps, An intro
    Playbook
    Commands
    Debug1
+   Jinja Playbook
+   Debug2
 
 Indices and tables
 ==================

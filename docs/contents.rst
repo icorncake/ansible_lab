@@ -26,3 +26,7 @@ contents
 `Commands <https://ansible-lab.readthedocs.io/en/latest/Commands.html>`_
 
 `Debug1 <https://ansible-lab.readthedocs.io/en/latest/Debug1.html>`_
+
+`Jinja Playbook <https://ansible-lab.readthedocs.io/en/latest/Jinja%20Playbook.html>`_
+
+`Debug2 <https://ansible-lab.readthedocs.io/en/latest/Debug2.html>`_
