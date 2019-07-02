@@ -18,7 +18,7 @@ Windows
 ~~~~~~~~
 
 Just move to linux already, Windows is
-Follow the Docker CE link below
+| Follow the Docker CE link below
 
 Docker
 ~~~~~~~~
