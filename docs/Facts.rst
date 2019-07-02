@@ -1,6 +1,10 @@
 Facts
 ======
 
+
+Now let collect facts from a F5 and store those facts into a json file.
+
+
 .. code-block:: yaml
    :linenos:
 
