@@ -3,12 +3,8 @@ YAML
 
 YAML or YML (it has too many meanings: Yet Another Markup Language; Yaml Ain't Markup Language) who cares?
 
-It's easy to read
+It's easy to read!
 
-.. sidebar:: Title
-     :subtitle: Content here
-
-     Check lines
 
 ::
 
