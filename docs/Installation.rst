@@ -30,7 +30,7 @@ Docker
 
 
     docker pull cwise24/ansiblelab:latest
-    docker run -p 2222:22 --name ansiblec -dit ansiblelab
+    docker run -p 2222:22 --name ansiblec -dit cwise24/ansiblelab
 
 
 To run the Ansible container's shell:
