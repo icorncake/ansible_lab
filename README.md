@@ -17,8 +17,6 @@ This container was built to facilitate a DevOps, Ansible course containing many 
  - bash 
 
 
-User
-~~~~~
 
 Created a default user ansible with a home directory of /home/ansible
 Created .ssh, .bashrc and imported two YAML test files
