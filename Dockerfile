@@ -5,7 +5,7 @@ MAINTAINER Chad Wise <cwise24@gmail.com>
 
 RUN apk upgrade 
 RUN apk --update add --no-cache --virtual .pynacl_deps build-base g++ libffi libffi-dev openssl
-RUN apk --update add openssl-dev python3 python3-dev openssh sshpass git py3-lxml py3-pillow bash bash-completion vim && \
+RUN apk --update add openssl-dev python3 python3-dev openssh sshpass git py3-lxml py3-pillow bash bash-completion vim jq && \
     echo "Installing PIP" && \
     pip3 install --no-cache --upgrade pip setuptools wheel && \
     echo "Installing ansible and tools" && \
