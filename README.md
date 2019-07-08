@@ -19,7 +19,7 @@ This container was built to facilitate a DevOps, Ansible course containing many 
 User
 ~~~~~
 
-Created a default user ``ansible`` with a home directory of ``/home/ansible``
+Created a default user  ``ansible``  with a home directory of  ``/home/ansible``
 Created .ssh, .bashrc and imported two YAML test files
 
 * error.yml
