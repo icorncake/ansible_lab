@@ -1,8 +1,6 @@
 Alpine Linux based conatiner using Python3 and Pip3 installs.
 ===============================================================
 
-Packages
-~~~~~~~~~
 
 This container was built to facilitate a DevOps, Ansible course containing many packages.
  - python3 pip3
