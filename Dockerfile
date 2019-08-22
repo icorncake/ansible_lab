@@ -15,6 +15,7 @@ RUN apk --update add openssl-dev python3 python3-dev openssh sshpass git py3-lxm
     echo "Install Linting Tools " && \
     pip3 install --no-cache yamllint && \
     pip3 install --no-cache pylint && \ 
+    pip3 install --no-cache ansible-lint && \
     echo "installing Docx and PPTx" && \
     pip3 install --no-cache python-docx && \
     pip3 install --no-cache python-pptx
