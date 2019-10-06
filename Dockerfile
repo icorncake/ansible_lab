@@ -35,5 +35,6 @@ RUN mkdir -p /home/ansible/.ssh && \
 
 COPY --chown=ansible error.yml /home/ansible/ansible_lab/.
 COPY --chown=ansible noerror.yml /home/ansible/ansible_lab/.
+COPY --chown=ansible switch_conf.yml /home/ansible/ansible_lab/.
 
 EXPOSE 22/tcp

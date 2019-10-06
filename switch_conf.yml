@@ -1,0 +1,31 @@
+---
+- name: Get IOS version info
+  hosts: [ios]
+  gather_facts: no
+
+  tasks:
+    - name: Connect to IOS
+      ios_facts:
+        gather_subset:
+          - config
+      register: ios_conf
+
+    - name: Show hostname and software version ONLY IF IOS
+      debug:
+        msg: "{{ 'Hostname: '+ ios_conf.ansible_facts.ansible_net_hostname + 'Version: '+ ios_conf.ansible_facts.ansible_net_version}}"
+      when: ios_conf.ansible_facts.ansible_net_system == "ios"
+
+- name: Get JunOS version info
+  hosts: [junos]
+  gather_facts: no
+
+  tasks:
+    - name: Connect to JunOS
+      junos_command:
+        commands:
+          - show configuration
+      register: junos_conf
+
+    - name: Show hostname and software version ONLY IF JunOS
+      debug:
+        msg: "{{ 'hostname: '+inventory_hostname }}+' '+ {{junos_conf.stdout_lines[0] | select('search', 'version') | list | first }}"
