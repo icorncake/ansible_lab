@@ -13,7 +13,7 @@ This container was built to facilitate a DevOps, Ansible course containing many 
  - python-pptx
  - git
  - bash
- - ncclient to run netconf with [Juniper](https://juniper.net/en_US/junos/topics/topic-map/netconf-ssh-connection.html)
+ - ncclient to run netconf with [Juniper](https://juniper.net/documentation/en_US/junos/topics/topic-map/netconf-ssh-connection.html)
 
 
 
