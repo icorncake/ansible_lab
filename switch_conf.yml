@@ -12,7 +12,7 @@
 
     - name: Show hostname and software version ONLY IF IOS
       debug:
-        msg: "{{ 'Hostname: '+ ios_conf.ansible_facts.ansible_net_hostname + 'Version: '+ ios_conf.ansible_facts.ansible_net_version}}"
+        msg: "{{ 'Hostname: '+ ios_conf.ansible_facts.ansible_net_hostname + ', Version: '+ ios_conf.ansible_facts.ansible_net_version}}"
       when: ios_conf.ansible_facts.ansible_net_system == "ios"
 
 - name: Get JunOS version info
@@ -28,4 +28,4 @@
 
     - name: Show hostname and software version ONLY IF JunOS
       debug:
-        msg: "{{ 'hostname: '+inventory_hostname }}+' '+ {{junos_conf.stdout_lines[0] | select('search', 'version') | list | first }}"
+        msg: "{{ 'hostname: '+inventory_hostname+' ,'+ (junos_conf.stdout_lines[0] | select('search', 'version') | list | first )}}"
