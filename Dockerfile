@@ -1,5 +1,5 @@
 #set base
-FROM alpine:3.11.3
+FROM alpine:3.10
 
 MAINTAINER Chad Wise <cwise24@gmail.com>
 
