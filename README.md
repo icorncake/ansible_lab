@@ -15,7 +15,7 @@ This container was built to facilitate my [NetOps to DevOps Intro](https://snops
  - bash
  - ncclient to run netconf
 
-Please see the link for setting up **netconf** use on [Juniper](https://juniper.net/documentation/en_US/junos/topics/topic-map/netconf-ssh-connection.html) devices
+Please see the link for setting up **netconf** use on [Juniper](https://juniper.net/documentation/en_US/junos/topics/topic-map/netconf-ssh-connection.html) devices.
 
 Created a default user ansible with a home directory of /home/ansible
 Created .ssh, .bashrc and imported two YAML test files
