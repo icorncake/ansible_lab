@@ -1,29 +1,17 @@
 #set base
-FROM alpine:3.11
+FROM python:alpine3.13
 
 MAINTAINER Chad Wise <cwise24@gmail.com>
 
+COPY requirements.txt .
 RUN apk upgrade 
-RUN apk --update add --no-cache --virtual .pynacl_deps build-base g++ libffi libffi-dev openssl
-RUN apk --update add openssl-dev python3 python3-dev openssh sshpass git py3-lxml py3-pillow bash bash-completion vim jq && \
-    echo "Installing PIP" && \
-    pip3 install --no-cache --upgrade pip setuptools wheel && \
-    echo "Installing ansible and tools" && \
-    pip3 install --no-cache ansible  f5-sdk deepdiff && \
-    pip3 install --no-cache jmespath && \ 
-    pip3 install --no-cache netmiko && \
-    pip3 install --no-cache ncclient && \
-    echo "Install Linting Tools " && \
-    pip3 install --no-cache yamllint && \
-    pip3 install --no-cache pylint && \ 
-    pip3 install --no-cache ansible-lint && \
-    echo "installing Docx and PPTx" && \
-    pip3 install --no-cache python-docx && \
-    pip3 install --no-cache python-pptx
-
-RUN apk del .pynacl_deps
+RUN apk --update add --no-cache --virtual .pynacl_deps build-base g++ gcc libffi-dev libressl-dev musl-dev libxml2-dev libxslt-dev jpeg-dev zlib-dev
+RUN apk --update add openssl-dev python3 python3-dev py3-pip openssh git bash bash-completion vim jq && \
+    echo "Installing Ansible and tools" && \
+    pip3 install -r requirements.txt 
 
 RUN adduser --disabled-password ansible
+RUN apk del libressl-dev musl-dev libffi-dev .pynacl_deps
 
 USER ansible
 WORKDIR /home/ansible

@@ -1,0 +1,10 @@
+ ansible
+ jmespath
+ netmiko 
+ ncclient
+ yamllint
+ pylint
+ ansible-lint
+ python-docx
+ python-pptx
+ cryptography==3.1.1
