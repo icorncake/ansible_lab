@@ -1,5 +1,5 @@
 #set base
-FROM python:alpine3.13
+FROM python:alpine3.15
 
 MAINTAINER Chad Wise <cwise24@gmail.com>
 
